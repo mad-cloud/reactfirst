@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import React from 'react';
+import DivComponent from './components/DivComponent';
+import DivClassComp from './components/DivClassComp';
+import './style1.css';
+let App=()=>{
+  return(
+    <>
+    <div className='main_div'>
+      <h1 style={{display:"inline-block",backgroundColor:"aqua"}}>Styling using Functional and Class Component</h1>
+      <DivComponent />
+      <DivClassComp />
     </div>
-  );
+    </>
+  )
 }
-
 export default App;

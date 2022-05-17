@@ -1,0 +1,38 @@
+.main_div{
+    width:100vw;
+    height: 100vh;
+    text-align: center;
+    background:linear-gradient(white,aqua,pink)
+}
+.but1{
+    height: 40px;
+    background-color: darkslateblue;
+    border-radius: 20px;
+}
+.but1:hover{
+    background-color: aqua;
+}
+.div{
+    width:330px;
+    height:200px;
+    margin:70px 0 0 20px;
+    background-color: aqua;
+    border:2px solid black;
+    border-radius: 15px;
+}
+.but2{
+    height: 40px;
+    background-color: darkslateblue;
+    border-radius: 20px;
+}
+.but2:hover{
+    background-color: aqua;
+}
+.div2{
+    width:330px;
+    height:200px;
+    margin:70px 0 0 20px;
+    background-color: darkmagenta;
+    border:2px solid black;
+    border-radius: 15px;
+}
